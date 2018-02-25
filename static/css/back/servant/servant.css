@@ -1,0 +1,214 @@
+/* Layout */
+html, body {
+  overflow:hidden;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a, 
+a:hover,
+a:link,
+a:active,
+a:visited
+ {
+  text-decoration : none;
+} 
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+
+  margin: 50px;
+}
+/* Layout */
+
+html {
+  max-width: 95vw;
+}
+
+.heads {
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+}
+.head img{
+  width: 97px;
+  height: 106px;
+  margin: 10px 15px;
+}
+.word {
+  width: 10vh;
+}
+.level-needs {
+  list-style-type: none;
+}
+
+.thumb {
+  width: 5.0vw;   /* 50px */
+  height: 5.5vw;  /* 55px */
+  margin-top: .5vw;
+}
+.thumb.servant {
+  margin-top: 0;
+}
+.thumb.skill {
+  width: 2.5vw;   /* 25px */
+  height: 2.5vw;  /* 25px */
+  position: relative;
+  top: -2px;
+}
+
+.material-wrapper {
+  display: inline-block;
+  width: 8.5vw; /* 85px */
+  font-weight: bold;
+}
+
+.total > .word {
+  margin-right: 40px;
+}
+
+.materials, .level-need {
+  width: 40vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+
+}
+
+.materials.calc-result {
+  width: 50vw;
+}
+
+.nav-tabs.servant-classes {
+  margin: 20px 0 0 0;
+}
+
+.load-last {
+  margin-left: 5px;
+}
+
+.btn-default.mobile-forbidden {
+  margin-top: 15px;
+}
+
+.tbl_servant{
+  display: none;
+}
+
+
+input[type=number] {
+  width: 5vw;
+}
+
+td span {
+  position: relative;
+  display: inline-block;
+  top: 1px;
+  left: 2px;
+}
+
+.glyphicon-play {
+  margin-left: -5px;
+}
+
+.skill-input {
+  display: inline-block; 
+  transform: translateX(-10vw);
+  margin-top: .5vw;
+}
+
+.level-input{
+  display: inline-block; 
+  margin-top: .5vw;
+}
+
+
+.skill-group {
+  display: flex; 
+  flex-flow: row wrap; 
+  justify-content: space-between;
+}
+
+.skill-info, .skill-input, .level-input{
+  display: inline-block;
+}
+
+.item.thumb + span {
+  position: relative;
+  top: 2vw;
+  left: .3vw;
+}
+
+.material-wrapper a + span {
+  position: relative;
+  top: 2vw;
+}
+
+
+@media screen and (max-width:  450px) {
+  .flex-container{
+    margin: 20px 10px;
+  }
+
+  .head img{
+    width: 55px;
+    height: 60px;
+    margin: 4px 10px;
+  }
+  .heads {
+    width: 90%;
+  }
+  .materials, .level-need {
+    width: 320px;
+  }
+  .materials {
+    margin-left: 12vw;
+  }
+
+
+}
+
+@media screen and (max-width:  510px) {
+  .flex-container{
+    margin: 20px 10px;
+  }
+  input[type=number] {
+    width: 25px;
+  }
+}
+
+@media screen and (max-width:  1000px) {
+  .thumb {
+    width: 50px;   /* 50px */
+    height: 55px;  /* 55px */
+  }
+  .thumb.skill {
+    width: 25px;   /* 25px */
+    height: 25px;  /* 25px */
+  }
+
+  .material-wrapper {
+    display: inline-block;
+    width: 85px; /* 85px */
+    font-weight: bold;
+  }
+
+  .skill-input {
+    margin-top: 3px;
+  }
+
+  .skill-input {
+    transform: translateX(-.5vw);
+  }
+
+  .mobile-forbidden {
+    display: none;
+  }
+}

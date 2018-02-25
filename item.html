@@ -1,0 +1,700 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, target-densitydpi=device-dpi">
+  <meta name="renderer" content="webkit">
+  <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  
+  <title>FGO Items</title>
+
+
+  
+  <!-- <link rel="stylesheet" type="text/css" href="static/css/layout.css"> -->
+  <style type="text/css">
+
+    /* Layout */
+    html, body {
+      overflow:hidden;
+      overflow-y:auto;
+      overflow-x:hidden;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    a, 
+    a:hover,
+    a:link,
+    a:active,
+    a:visited
+     {
+      text-decoration : none;
+    } 
+    
+    .flex-container {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+
+      margin: 50px;
+    }
+    /* Layout */
+
+
+    .heads {
+      width: 80%;
+      margin-top: 10px;
+    }
+
+    .head-img{
+      width: 97px;
+      height: 106px;
+      background-size: 97px, 106px;
+      margin: 4px 10px;
+    }
+
+    .items {
+      width: 70%;
+      margin: auto;
+      margin-top: 30px;
+    }
+
+    .item {
+
+    }
+
+    .item img{
+      width: 97px;
+      height: 106px;
+      margin: 10px;
+    }
+    
+
+    .item-back {
+      margin-left: 3%;
+      margin-top: 30px;
+    }
+
+    .num {
+      position: relative;
+      top: 60%;
+      color: white;
+      font-weight: bold;
+      -webkit-filter:
+         drop-shadow(1px 0px 0px black)
+         drop-shadow(0px 1px 0px black)
+         drop-shadow(0px -1px 0px black)
+         drop-shadow(-1px 0px 0px black);
+      filter:
+         drop-shadow(1px 0px 0px black)
+         drop-shadow(0px 1px 0px black)
+         drop-shadow(0px -1px 0px black)
+         drop-shadow(-1px 0px 0px black);
+    }
+
+    .num-1 {
+      left: 85%
+    }
+    .num-2 {
+      left: 75%;
+    }
+    .num-3 {
+      left: 65%
+    }
+
+    .delete, .delete-dropdown{
+      margin-left: 10px;
+    }
+
+    .delete-dropdown{
+      visibility: hidden;
+    }
+
+    @media screen and (max-width:  450px) {
+      .flex-container{
+        margin: 20px 10px;
+      }
+      .heads {
+        width: 90%;
+      }
+      .head-img {
+        width: 55px;
+        height: 60px;
+        background-size: 55px, 60px;
+        background-repeat: no-repeat;
+        margin: 4px 10px;
+      }
+      .items {
+        width: 90%;
+      }
+      .item img {
+        width: 55px;
+        height: 60px;
+        margin: 4px 10px;
+      }
+      .item .back {
+        width: 60px;
+        height: 66px; 
+      }
+      .num {
+        font-size: 10px;
+      }
+      .num-1 {
+        left: 80%
+      }
+      .num-2 {
+        left: 70%;
+      }
+      .num-3 {
+        left: 60%
+      }
+
+    }
+
+
+  </style>
+
+</head>
+<body>
+  
+  <ul class="nav nav-tabs">
+    <li class="nav-tab item"><a href="item.html">Items</a></li>
+    <li class="nav-tab servant"><a href="servant.html">Servants</a></li>
+    <li class="nav-tab drop"><a href="drop.html">Drops</a></li>
+  </ul>
+
+  <div id="content">
+    
+    <div class="flex-container items">
+
+        <div class="flex-item item">
+          <a href="item/78.html">
+            <img src="https://img.fgowiki.com/fgo/material/tooth.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/2.html">
+            <img src="https://img.fgowiki.com/fgo/material/bakazhen.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/4.html">
+            <img src="https://img.fgowiki.com/fgo/material/bone.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/5.html">
+            <img src="https://img.fgowiki.com/fgo/material/chain.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/76.html">
+            <img src="https://img.fgowiki.com/fgo/material/suiye.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/46.html">
+            <img src="https://img.fgowiki.com/fgo/material/plate.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/48.html">
+            <img src="https://img.fgowiki.com/fgo/material/powder.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/82.html">
+            <img src="https://img.fgowiki.com/fgo/material/zhui.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/32.html">
+            <img src="https://img.fgowiki.com/fgo/material/gear.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/34.html">
+            <img src="https://img.fgowiki.com/fgo/material/gouyu.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/8.html">
+            <img src="https://img.fgowiki.com/fgo/material/clevis.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/9.html">
+            <img src="https://img.fgowiki.com/fgo/material/cluster.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/41.html">
+            <img src="https://img.fgowiki.com/fgo/material/lamp.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/17.html">
+            <img src="https://img.fgowiki.com/fgo/material/feather.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/45.html">
+            <img src="https://img.fgowiki.com/fgo/material/paper.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/79.html">
+            <img src="https://img.fgowiki.com/fgo/material/walnut.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/1.html">
+            <img src="https://img.fgowiki.com/fgo/material/badge.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/61.html">
+            <img src="https://img.fgowiki.com/fgo/material/snake.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/58.html">
+            <img src="https://img.fgowiki.com/fgo/material/shell.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/47.html">
+            <img src="https://img.fgowiki.com/fgo/material/potion.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/6.html">
+            <img src="https://img.fgowiki.com/fgo/material/claw.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/7.html">
+            <img src="https://img.fgowiki.com/fgo/material/claw1.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/49.html">
+            <img src="https://img.fgowiki.com/fgo/material/qiqi.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/12.html">
+            <img src="https://img.fgowiki.com/fgo/material/deng.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/16.html">
+            <img src="https://img.fgowiki.com/fgo/material/fat.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/11.html">
+            <img src="https://img.fgowiki.com/fgo/material/danjieshi.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/77.html">
+            <img src="https://img.fgowiki.com/fgo/material/tears.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/33.html">
+            <img src="https://img.fgowiki.com/fgo/material/gem.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/81.html">
+            <img src="https://img.fgowiki.com/fgo/material/yinmao.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/36.html">
+            <img src="https://img.fgowiki.com/fgo/material/heart.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/37.html">
+            <img src="https://img.fgowiki.com/fgo/material/jiao.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/50.html">
+            <img src="https://img.fgowiki.com/fgo/material/root.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/10.html">
+            <img src="https://img.fgowiki.com/fgo/material/cubes.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/68.html">
+            <img src="https://img.fgowiki.com/fgo/material/sphere07.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/65.html">
+            <img src="https://img.fgowiki.com/fgo/material/sphere04.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/62.html">
+            <img src="https://img.fgowiki.com/fgo/material/sphere01.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/63.html">
+            <img src="https://img.fgowiki.com/fgo/material/sphere02.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/64.html">
+            <img src="https://img.fgowiki.com/fgo/material/sphere03.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/66.html">
+            <img src="https://img.fgowiki.com/fgo/material/sphere05.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/67.html">
+            <img src="https://img.fgowiki.com/fgo/material/sphere06.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/53.html">
+            <img src="https://img.fgowiki.com/fgo/material/ruby03.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/55.html">
+            <img src="https://img.fgowiki.com/fgo/material/ruby05.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/56.html">
+            <img src="https://img.fgowiki.com/fgo/material/ruby06.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/57.html">
+            <img src="https://img.fgowiki.com/fgo/material/ruby07.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/51.html">
+            <img src="https://img.fgowiki.com/fgo/material/ruby01.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/52.html">
+            <img src="https://img.fgowiki.com/fgo/material/ruby02.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/54.html">
+            <img src="https://img.fgowiki.com/fgo/material/ruby04.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/69.html">
+            <img src="https://img.fgowiki.com/fgo/material/star01.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/70.html">
+            <img src="https://img.fgowiki.com/fgo/material/star02.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/71.html">
+            <img src="https://img.fgowiki.com/fgo/material/star03.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/72.html">
+            <img src="https://img.fgowiki.com/fgo/material/star04.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/74.html">
+            <img src="https://img.fgowiki.com/fgo/material/star06.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/75.html">
+            <img src="https://img.fgowiki.com/fgo/material/star07.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/73.html">
+            <img src="https://img.fgowiki.com/fgo/material/star05.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/31.html">
+            <img src="https://img.fgowiki.com/fgo/material/figure7s.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/25.html">
+            <img src="https://img.fgowiki.com/fgo/material/figure4s.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/29.html">
+            <img src="https://img.fgowiki.com/fgo/material/figure6s.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/27.html">
+            <img src="https://img.fgowiki.com/fgo/material/figure5s.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/23.html">
+            <img src="https://img.fgowiki.com/fgo/material/figure3s.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/21.html">
+            <img src="https://img.fgowiki.com/fgo/material/figure2s.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/19.html">
+            <img src="https://img.fgowiki.com/fgo/material/figure1s.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/18.html">
+            <img src="https://img.fgowiki.com/fgo/material/figure1g.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/26.html">
+            <img src="https://img.fgowiki.com/fgo/material/figure5g.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/30.html">
+            <img src="https://img.fgowiki.com/fgo/material/figure7g.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/28.html">
+            <img src="https://img.fgowiki.com/fgo/material/figure6g.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/24.html">
+            <img src="https://img.fgowiki.com/fgo/material/figure4g.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/22.html">
+            <img src="https://img.fgowiki.com/fgo/material/figure3g.jpg">
+          </a>
+        </div>
+
+        <div class="flex-item item">
+          <a href="item/20.html">
+            <img src="https://img.fgowiki.com/fgo/material/figure2g.jpg">
+          </a>
+        </div>
+
+    </div>    
+
+
+  </div>
+
+  
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/2.3.1/js/bootstrap-button.min.js"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/2.3.1/js/bootstrap-button.js"></script>
+    
+  
+<script type="text/javascript">
+  $(document).ready(function () {
+
+    activate_tab()
+
+    let heads = $('.flex-item.head a');
+    let break_heads = $('.break .flex-item.head a');
+    let skill_heads = $('.skill .flex-item.head a');
+    let nums = [[], []]
+
+    nums[0] = get_eles_attr(break_heads, 'data-num')
+    nums[1] = get_eles_attr(skill_heads, 'data-num')
+
+    content = $('#content')
+    $('.delete').on('click', function(){
+      content.toggleClass('delete-mode')
+      if (content.hasClass('delete-mode')) {
+        bind_delete(break_heads, 'break')
+        bind_delete(skill_heads, 'skill')
+        $('.delete-dropdown').css('visibility', 'visible')
+      } else {
+        break_heads.off('click')
+        skill_heads.off('click')
+        $('.delete-dropdown').css('visibility', 'hidden')
+        for (let i = 0; i < break_heads.length; i++) {
+          $(break_heads[i]).attr('href', `/servant/${nums[0][i]}/`)
+        }
+        for (let i = 0; i < skill_heads.length; i++) {
+          $(skill_heads[i]).attr('href', `/servant/${nums[1][i]}/`)
+        }
+      }
+    })
+
+
+    //url = `../..static/json/about_ids_names/servant_ids_by_star.json`
+    url = 'static/json/about_ids_names/servant_ids_by_star.json'
+    $.getJSON(url, function(data){
+      for (let i = 1; i <= 5; i++) {
+        $(`.delete-by.star-${i}`).on('click', function(){
+          for (let head of heads) {
+            if (data[i].indexOf($(head).attr('data-num')) !== -1) {
+              head.click()
+            }
+          }
+        })
+      }
+
+      for (let i = 4; i <= 5; i++) {
+        $(`.delete-by.star-below-${i}`).on('click', function(){
+          for (let head of heads) {
+            for (let j = 0; j <= i-1; j++) {
+              if (data[j].indexOf($(head).attr('data-num')) !== -1) {
+                head.click()
+              }
+            }
+
+          }
+        })
+      }
+
+    })
+   
+  })
+
+  function activate_tab() {
+    let cur_tab = $('.nav-tab.item')
+    cur_tab.addClass('active')
+  }
+
+  function get_eles_attr(eles, attr_name) {
+    let attrs = []
+    for (let i = 0; i < eles.length; i++) {
+      attrs.push($(eles[i]).attr(attr_name))
+    }
+    return attrs
+  }
+
+  function bind_delete(heads) {
+    heads.attr('href', 'javascript:;')
+    // Bind click: Delete servant and subtract the needed material
+    heads.on('click', function(){
+      subtract_num(this)
+    })
+  }
+
+  function subtract_num(head) {
+    let material_num = Number($(head).find('span.num').text())
+    let total = $(head).parents('.total-container').children('.total')
+    let total_text = total.text()
+    let pat = /([a-z]+): (\d+)/
+    let reg_result = pat.exec(total_text)
+    let total_num = Number(reg_result[2])
+    $(head).remove()
+    total_num -= material_num
+    total.text(reg_result[1] + ': ' + total_num)
+  }
+
+
+</script>
+
+  
+
+</body>
+</html>

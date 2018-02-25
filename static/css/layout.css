@@ -1,0 +1,22 @@
+html, body {
+  overflow:hidden;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration : none;
+} 
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+
+  margin: 50px;
+}

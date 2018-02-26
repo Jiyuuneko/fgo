@@ -163,13 +163,13 @@ $(document).ready(function(){
       
       for (let need of all_need) {
         // let need_span = $(`<span class="material-wrapper">
-        //                     <img class="item thumb" src="https://img.fgowiki.com/fgo/material/${need[1]}.jpg">
+        //                     <img class="item thumb" src="https://lordpmm.github.io/fgo/static/images/fgo/material/${need[1]}.jpg">
         //                     <span>${need[2]}</span>
         //                   </span>`)
 
         let need_span = $('<span class="material-wrapper"></span>')
 
-        let src1 = `https://img.fgowiki.com/fgo/material/${need[1]}.jpg`
+        let src1 = `https://lordpmm.github.io/fgo/static/images/fgo/material/${need[1]}.jpg`
         let src2 = `./static/images/material/${need[1]}.jpg`
         let src = (need[1] === 'Kfc')? src2: src1
 
@@ -475,7 +475,7 @@ function bind_summation(){
 
         let tr = $(`<tr data_num="${data_num}"></tr>`)
 
-        let td_1 = $(`<td><img src="https://img.fgowiki.com/fgo/head/${data_num}.jpg" class="thumb servant"></td>`)
+        let td_1 = $(`<td><img src="https://lordpmm.github.io/fgo/static/images/fgo/head/${data_num}.jpg" class="thumb servant"></td>`)
 
         let td_2 = $(`<td></td>`)
 
@@ -599,7 +599,7 @@ function bind_summation(){
             imgs = $(`tr[data_num='${data_num}'] td:eq(2) img`)
             spans = $(`tr[data_num='${data_num}'] td:eq(2) span.skill_name`)
             for (let i = 0; i < imgs.length; i++) {
-              $(imgs[i]).attr('src', `https://img.fgowiki.com/mobile/images/Skill/${img_names[i]}.png`)
+              $(imgs[i]).attr('src', `https://lordpmm.github.io/fgo/static/images/mobile/images/Skill/${img_names[i]}.png`)
               $(spans[i]).text(skill_names[i])
             }
 

@@ -19,7 +19,7 @@ $(document).ready(function () {
       success: function (data) {
         mtr = JSON.parse(data)
         mtr_name = mtr.mtr_name
-        src = `https://img.fgowiki.com/fgo/material/${mtr_name}.jpg`
+        src = `https://lordpmm.github.io/fgo/static/images/fgo/material/${mtr_name}.jpg`
         thumb = thumb[0]
         thumb.setAttribute('src', src)
       }
